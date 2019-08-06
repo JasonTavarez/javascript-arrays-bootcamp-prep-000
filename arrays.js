@@ -8,6 +8,5 @@ function addElementToBeginningOfArray(array, element){
 
 
 function addElementToBeginningOfArray(array, element){
-  array.shift(element);
-  return array;
+  
 }
