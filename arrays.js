@@ -8,6 +8,6 @@ function addElementToBeginningOfArray(array, element){
 
 
 function addElementToBeginningOfArray(array, element){
-  var altArray = [...array, element];
+  var altArray = [element, ...array];
   return altArray;
 }
