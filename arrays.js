@@ -11,3 +11,8 @@ function addElementToBeginningOfArray(array, element){
   var altArray = [element, ...array];
   return altArray;
 }
+
+function destructivelyAddElementToBeginningOfArray(array, element){
+  array.unshift(element);
+  return array;
+}
