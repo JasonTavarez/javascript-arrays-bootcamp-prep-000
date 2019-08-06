@@ -29,3 +29,9 @@ function addElementToEndOfArray(array, element){
   var alter = [...array, element];
   return alter;
 }
+
+
+function destructivelyAddElementToEndOfArray(array, element){
+  array.push(element);
+  return array;
+}
